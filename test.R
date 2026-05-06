@@ -1,6 +1,9 @@
 ## install if needed (do this exactly once):
 ## install.packages("usethis")
 
+git config --global user.name "Job Schepens"
+git config --global user.email "job.schepens@uni-koeln.de"
+
 library(usethis)
 use_git_config(user.name = "Job Schepens", user.email = "job.schepens@uni-koeln.de")
 usethis::create_github_token()
