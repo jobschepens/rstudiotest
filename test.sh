@@ -16,4 +16,3 @@ ssh-keygen -t ed25519 -C "job.schepens@uni-koeln.de"
 git remote -v
 git branch -m master main
 git push -u origin main
-
