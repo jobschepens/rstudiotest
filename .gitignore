@@ -3,3 +3,50 @@
 .RData
 .Ruserdata
 .positai
+
+# R
+*.Rcheck/
+*.tar.gz
+*.tgz
+docs/
+vignettes/*.html
+inst/doc/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.Renviron
+.env
+.envrc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Package management
+renv/library/
+renv/.cache/
+packrat/lib/
+packrat/src/
