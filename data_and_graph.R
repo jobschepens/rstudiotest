@@ -19,3 +19,13 @@ ggplot(df, aes(x = x, y = y, colour = group)) +
     colour  = "Group"
   ) +
   theme_minimal()
+
+ggplot(df, aes(x = group, y = y, fill = group)) +
+  geom_boxplot(alpha = 0.7, outlier.shape = 21) +
+  labs(
+    title = "Distribution of Y by group",
+    x     = "Condition,
+    y     = "Y"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
