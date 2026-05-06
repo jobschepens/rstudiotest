@@ -1,8 +1,6 @@
 ## install if needed (do this exactly once):
 ## install.packages("usethis")
 
-git config --global user.name "Job Schepens"
-git config --global user.email "job.schepens@uni-koeln.de"
 
 library(usethis)
 use_git_config(user.name = "Job Schepens", user.email = "job.schepens@uni-koeln.de")
@@ -23,6 +21,3 @@ chattr_app()
 
 
 
-# winget install --id GitHub.cli
-# gh repo create rstudiotest2 --private --source=. --push
-# curl -u "jobschepens" -d "{\"name\":\"rstudiotest2\",\"private\":true}" https://api.github.com/user/repos
