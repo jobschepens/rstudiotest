@@ -19,10 +19,4 @@ chattr_use(chat)
 # Launch the UI
 chattr_app()
 
-$ git status
 
-git add
-$ git commit -m "Create initial structure for a Guacamole recipe"
-$ git diff
-
-ls -al ~/.ssh
