@@ -5,3 +5,4 @@ use_git_config(user.name = "Job Schepens", user.email = "job.schepens@uni-koeln.
 usethis::create_github_token()
 gitcreds::gitcreds_set()
 
+library(tidyverse)
